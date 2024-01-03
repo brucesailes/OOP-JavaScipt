@@ -6,7 +6,7 @@ Object-Oriented Programming (OOP) is a programming paradigm based on the concept
 ## Key Concepts of OOP
 OOP in JavaScript revolves around four main principles:
 
-### Encapsulation
+### 1. Encapsulation
 Encapsulation is the mechanism of hiding the internal state of an object and requiring all interaction to be performed through an object's methods. 
 
 Example:
@@ -21,7 +21,7 @@ class Car {
 }
 ```
 
-### Abstraction
+### 2. Abstraction
 Abstraction involves representing complex real-world problems with simpler, more manageable models.
 
 Example: 
@@ -62,7 +62,7 @@ console.log(`Area of the circle: ${circle.calculateArea()}`);
 console.log(`Color of the circle: ${circle.getColor()}`);
 ```
 
-### Inheritance
+### 3. Inheritance
 Inheritance is a way to form new classes using classes that have already been defined.
 
 Example:
@@ -96,7 +96,7 @@ myDog.eat(); // Inherited method from Animal
 myDog.bark(); // Method from Dog
 ```
 
-### Polymorphism
+### 4. Polymorphism
 Polymorphism allows methods to do different things based on the object it is acting upon.
 Example: 
 ```javascript
